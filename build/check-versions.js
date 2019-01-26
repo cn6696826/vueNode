@@ -1,5 +1,7 @@
 'use strict'
+//颜色配置
 const chalk = require('chalk')
+//检测版本
 const semver = require('semver')
 const packageConfig = require('../package.json')
 const shell = require('shelljs')
