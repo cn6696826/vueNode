@@ -1,11 +1,14 @@
 'use strict'
+//检查版本
 require('./check-versions')()
 
 process.env.NODE_ENV = 'production'
-
+//输出日志
 const ora = require('ora')
+//节点深度删除
 const rm = require('rimraf')
 const path = require('path')
+//日志颜色
 const chalk = require('chalk')
 const webpack = require('webpack')
 const config = require('../config')
